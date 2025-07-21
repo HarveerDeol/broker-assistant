@@ -9,7 +9,7 @@ on:
     types: [opened, synchronize]
 
 jobs:
-  main:
+  development:
     name: simple_deployment_pipeline
     runs-on: ubuntu-22.04
     steps:
